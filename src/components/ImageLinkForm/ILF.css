@@ -1,0 +1,35 @@
+#bttn {
+  margin: 6px;
+  border: solid;
+  border-radius: 300px;
+  background: transparent;
+  transition: 0.3s;
+}
+#bttn:hover {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.644);
+  border: solid;
+  border-color: #04fec9;
+  border-radius: 300px;
+  background: #04fec9;
+}
+#bttn:active {
+  box-shadow: none;
+}
+#bttn:focus {
+  outline: none;
+}
+
+#txt {
+  background: transparent;
+  border: solid;
+  border-color: white;
+  transition: 0.3s;
+}
+#txt:hover {
+  background: white;
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.425);
+}
+#txt:focus {
+  outline: none;
+}

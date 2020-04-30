@@ -1,0 +1,18 @@
+#bounding-box {
+  border-radius: 300px;
+  position: absolute;
+  box-shadow: 0 0 0 3px rgb(216, 245, 56) inset;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#InpImg {
+  transition: 0.3s;
+}
+#InpImg:hover {
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
