@@ -4,9 +4,7 @@ import "./ILF.css";
 const ImageLinkForm = ({ onInputChange, onSubmit }) => {
   return (
     <div>
-      <p className="f3">
-        {"This Magic Brain will detect faces in your pictures. Give it a try."}
-      </p>
+      <p className="f3">{"Paste image URL below for face detection"}</p>
       <Tilt
         className="center Tilt br2 "
         options={{ max: 15 }}
