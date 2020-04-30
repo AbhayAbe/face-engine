@@ -15,7 +15,7 @@
 }
 .inpBox {
   border: solid;
-  border-width: 10px;
+  border-width: 2px;
   border-color: white;
   border-radius: 16px 0 16px 0;
   transition: 0.3s;
