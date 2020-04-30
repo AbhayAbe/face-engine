@@ -49,8 +49,8 @@ class Signin extends Component {
   render() {
     const { onRouteChange } = this.props.onRouteChange;
     return (
-      <Tilt className="Tilt br2 " options={{ max: 15 }}>
-        <article className="br3 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l shadow-5 mw5 center">
+      <article className="br3 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l shadow-5 mw5 center">
+        <Tilt className="Tilt br2 " options={{ max: 15 }}>
           <main className="pa4 black-80 main">
             <div className="measure ">
               <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
@@ -109,8 +109,8 @@ class Signin extends Component {
               </div>
             </div>
           </main>
-        </article>
-      </Tilt>
+        </Tilt>
+      </article>
     );
   }
 }

@@ -11,6 +11,8 @@ body {
     rgba(219, 245, 53, 1) 0%,
     rgba(0, 255, 205, 1) 100%
   );
+
+  overflow-x: hidden;
 }
 
 code {
