@@ -85,7 +85,7 @@ class Register extends Component {
                   </label>
                   <input
                     onChange={this.onNameChange}
-                    className="pa2 input-reset ba bg-transparent  hover-white w-100 inpBox"
+                    className="pa2 input-reset ba bg-transparent  hover-white w-100 inBox"
                     type="text"
                     name="user-name"
                     id="user-name"
@@ -100,7 +100,7 @@ class Register extends Component {
                   </label>
                   <input
                     onChange={this.onEmailChange}
-                    className="pa2 input-reset ba bg-transparent  hover-white w-100 inpBox"
+                    className="pa2 input-reset ba bg-transparent  hover-white w-100 inBox"
                     type="email"
                     name="email-address"
                     id="email-address"
@@ -115,7 +115,7 @@ class Register extends Component {
                   </label>
                   <input
                     onChange={this.onPasswordChange}
-                    className="b pa2 input-reset ba bg-transparent  hover-white w-100 inpBox"
+                    className="b pa2 input-reset ba bg-transparent  hover-white w-100 inBox"
                     type="password"
                     name="password"
                     id="password"

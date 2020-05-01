@@ -3,8 +3,8 @@ import Tilt from "react-tilt";
 import "./ILF.css";
 const ImageLinkForm = ({ onInputChange, onSubmit }) => {
   return (
-    <div className="center">
-      <p className="f3">{"Paste image URL below for face detection"}</p>
+    <div>
+      <p className="f3 center">{"Paste image URL below for face detection"}</p>
       <Tilt
         className="center Tilt br2 "
         options={{ max: 15 }}
