@@ -135,7 +135,7 @@ class Register extends Component {
                 <p>
                   Already have an account?{" "}
                   <a
-                    onClick={() => onRouteChange("signin")}
+                    onClick={() => onRouteChange("/signin")}
                     href="#0"
                     className="f6 link pointer dim black db"
                   >

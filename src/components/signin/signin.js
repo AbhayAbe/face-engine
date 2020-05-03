@@ -98,7 +98,7 @@ class Signin extends Component {
                 <p>
                   Not yet registered?{" "}
                   <a
-                    onClick={() => onRouteChange("register")}
+                    onClick={() => onRouteChange("/register")}
                     href="#0"
                     className="f6 link pointer dim black db"
                   >
